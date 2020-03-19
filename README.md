@@ -2,12 +2,14 @@
 
 A GitHub Action for approving pull requests.
 
+This is based on https://github.com/marketplace/actions/approve-pull-request
+
 ## Usage
 
 ```yaml
 steps:
   - name: Approve Pull Request
-    uses: juliangruber/approve-pull-request-action@v1
+    uses: raravena80/approve-pr-action@v1
     with:
       github-token: ${{ secrets.GITHUB_TOKEN }}
       number: 1
