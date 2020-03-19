@@ -1,5 +1,5 @@
 name: Approve Pull Request With Author
-author: juliangruber
+author: raravena80
 description: 'A GitHub Action for approving pull requests'
 branding:
   icon: 'git-pull-request'
